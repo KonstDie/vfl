@@ -1,0 +1,23 @@
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.heading{
+    font-size: 4vw;
+    padding: 0.5vw;
+    text-align: center;
+}
+body {
+    background: repeating-linear-gradient(
+      50deg, /* Winkel des Musters */
+      #ff0000, /* Farbe 1 */
+      #a1c4fd 20px, /* Abstand für das erste Muster */
+      #fbc2c2 20px, /* Farbe 2 */
+      #c2e9fb 40px /* Abstand für das zweite Muster */
+    );
+    margin: 0;
+    height: 100vh; /* Volle Höhe des Viewports */
+  }
